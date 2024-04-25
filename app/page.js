@@ -14,28 +14,34 @@ const page = () => {
       </div>
       </div>
       <div className='bg-white h-1 opacity-10'>
-              fg
-      </div>
-     <div>
 
-    <div className='text-white'>
-      <h1 className='text-lg font-bold text-center my-4'>Your fans can buy you coffee</h1>
+      </div>
+  
+
+    <div className='text-white container mx-auto'>
+      <h1 className='text-2xl font-bold text-center my-8'>Your fans can buy you coffee</h1>
       <div className='flex gap-5 justify-around '>
-        <div className='item space-y-3'>
-        <img className=' bg-slate-400 rounded-full p-2 text-black' width={66} src="/man.gif" alt="Man GIF" />
-          <p className='font-bold'>Fund Yourself</p>
+      <div className='item space-y-3 flex flex-col items-center justify-center'>
+          <img className=' bg-slate-400 rounded-full p-2 text-black' width={66} src="/man.gif" alt="Man GIF" />
+          <p className='font-bold'>Fans want to help</p>
+          <p className=' text-center'>Your fans are available for you to help</p>
         </div>
-        <div className='item space-y-3'>
-        <img className=' bg-slate-400 rounded-full p-2 text-black' width={66} src="/man.gif" alt="Man GIF" />
-          <p className='font-bold'>Fund Yourself</p>
+        <div className='item space-y-3 flex flex-col items-center justify-center'>
+          <img className=' bg-slate-400 rounded-full p-2 text-black' width={66} src="/coin.png" alt="Man GIF" />
+          <p className='font-bold'>Fans want to help</p>
+          <p className=' text-center'>Your fans are available for you to help</p>
         </div>
-        <div className='item space-y-3'>
-        <img className=' bg-slate-400 rounded-full p-2 text-black' width={66} src="/man.gif" alt="Man GIF" />
-          <p className='font-bold'>Fund Yourself</p>
+        <div className='item space-y-3 flex flex-col items-center justify-center'>
+          <img className=' bg-slate-400 rounded-full p-2 text-black' width={66} src="/help.png" alt="Man GIF" />
+          <p className='font-bold'>Fans want to help</p>
+          <p className=' text-center'>Your fans are available for you to help</p>
         </div>
       </div>
-      
       </div>
+     
+
+     <div className='text-white container mx-auto'>
+      <h1 className='text-2xl font-bold text-center my-8'>Learn More About us</h1>
      </div>
       
     </>
