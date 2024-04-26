@@ -14,7 +14,6 @@ const page = () => {
       </div>
       </div>
       <div className='bg-white h-1 opacity-10'>
-
       </div>
   
 
@@ -38,11 +37,7 @@ const page = () => {
         </div>
       </div>
       </div>
-     
 
-     <div className='text-white container mx-auto'>
-      <h1 className='text-2xl font-bold text-center my-8'>Learn More About us</h1>
-     </div>
       
     </>
   )
